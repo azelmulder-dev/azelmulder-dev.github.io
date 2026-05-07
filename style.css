@@ -1,19 +1,15 @@
-Background: #FFFFFF (clean white)
-Main: #FF4D6D (hot coral pink)
-Accent: #FFB703 (amber yellow)
-Dark text: #1A1A2E (deep navy)
-Green: #2DC653 (vivid green)/* ===== TFC LIVING LIFE — STYLESHEET ===== */
+/* ===== TFC LIVING LIFE — STYLESHEET ===== */
 
 :root {
-  --cream: #F9EDD9;
-  --brown: #4A2C0A;
-  --orange: #E8793A;
-  --yellow: #F5C842;
-  --green: #5A8A3C;
-  --light-brown: #8B5E3C;
+  --cream: #FFF5E6;
+  --brown: #2D1B00;
+  --orange: #FF6B35;
+  --yellow: #FFD23F;
+  --green: #06D6A0;
+  --light-brown: #FF8C5A;
   --white: #FFFFFF;
-  --card-bg: #FFF8EE;
-  --shadow: rgba(74, 44, 10, 0.12);
+  --card-bg: #FFFBF5;
+  --shadow: rgba(255, 107, 53, 0.15);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
