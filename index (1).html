@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Two Fat Chicks Living the Life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link">
+        <img src="logo.jpg" alt="Two Fat Chicks Living the Life" class="nav-logo"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="life.html">Life</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="life.html">Life</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <span class="hero-tag">📍 Phnom Penh, Cambodia</span>
+      <h1>Real Life.<br/>Real Food.<br/>No Filter.</h1>
+      <p>Two South African chicks navigating expat life in Southeast Asia — one meal, one café, and one end-of-month crisis at a time.</p>
+      <div class="hero-btns">
+        <a href="recipes.html" class="btn-primary">See Recipes 🍳</a>
+        <a href="life.html" class="btn-secondary">Read the Blog</a>
+      </div>
+    </div>
+    <div class="hero-image">
+      <img src="logo.jpg" alt="Two Fat Chicks" class="hero-logo"/>
+    </div>
+  </section>
+
+  <!-- WHAT WE DO -->
+  <section class="pillars">
+    <div class="pillar">
+      <span class="pillar-icon">🍳</span>
+      <h3>Real Recipes</h3>
+      <p>Budget meals, freezer wins, and end-of-month magic with whatever's left in the fridge.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">☕</span>
+      <h3>Café Life</h3>
+      <p>Honest reviews of Phnom Penh's best spots for iced coffee, working remotely, and just breathing.</p>
+    </div>
+    <div class="pillar">
+      <span class="pillar-icon">🌴</span>
+      <h3>Expat Living</h3>
+      <p>The real story of two tired teachers building a life in Cambodia. Messy, funny, and worth it.</p>
+    </div>
+  </section>
+
+  <!-- LATEST POSTS -->
+  <section class="latest">
+    <h2 class="section-title">Latest From the Blog</h2>
+    <div class="posts-grid">
+
+      <article class="post-card">
+        <div class="post-tag recipe-tag">Recipe</div>
+        <div class="post-body">
+          <h3>End-of-Month Taco Noodle Bowl</h3>
+          <p>When the fridge is half empty and takeaway is whispering lies — this one saves the day.</p>
+          <a href="recipes.html" class="read-more">Read more →</a>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-tag cafe-tag">Café</div>
+        <div class="post-body">
+          <h3>Gather Grounds, Phnom Penh</h3>
+          <p>A calm, grounded coffee shop that actually lets you sit, breathe, and get work done.</p>
+          <a href="life.html" class="read-more">Read more →</a>
+        </div>
+      </article>
+
+      <article class="post-card">
+        <div class="post-tag life-tag">Life</div>
+        <div class="post-body">
+          <h3>Welcome to TFC Living Life</h3>
+          <p>Two chicks, one city, endless iced coffees. Here's what this blog is really about.</p>
+          <a href="about.html" class="read-more">Read more →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- TIKTOK BANNER -->
+  <section class="tiktok-banner">
+    <div class="tiktok-inner">
+      <span class="tiktok-icon">🎵</span>
+      <div>
+        <h3>Follow us on TikTok</h3>
+        <p>Recipe cards, real kitchen moments, and café hunts in Phnom Penh</p>
+      </div>
+      <a href="https://www.tiktok.com/@tfc.living.life" target="_blank" class="btn-tiktok">@tfc.living.life</a>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <img src="logo.jpg" alt="TFC" class="footer-logo"/>
+    <p>Two Fat Chicks Living the Life</p>
+    <p class="footer-sub">Real life • Real food • Phnom Penh, Cambodia</p>
+    <p class="footer-copy">© 2026 TFC Living Life</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      const menu = document.getElementById('mobileMenu');
+      menu.classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

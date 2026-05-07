@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Recipes — TFC Living Life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link">
+        <img src="logo.jpg" alt="TFC Living Life" class="nav-logo"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html" class="active">Recipes</a></li>
+        <li><a href="life.html">Life</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="life.html">Life</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>🍳 Recipes</h1>
+    <p>Real food for real life. Budget-friendly, freezer-tested, and actually delicious.</p>
+  </div>
+
+  <div class="recipes-grid">
+
+    <!-- RECIPE 1 -->
+    <div class="recipe-card">
+      <div class="recipe-card-header">
+        <h3>Taco Noodle Bowl</h3>
+        <p>End-of-month survival cooking at its finest</p>
+      </div>
+      <div class="recipe-meta">
+        <span>⏱ Prep: 10 min</span>
+        <span>🍳 Cook: 20 min</span>
+        <span>👥 Serves: 4</span>
+      </div>
+      <div class="recipe-body">
+        <h4>Ingredients</h4>
+        <ul>
+          <li>1 packet taco mince (or any ground meat)</li>
+          <li>200g noodles of your choice</li>
+          <li>2 tbsp taco seasoning</li>
+          <li>2 tbsp gochujang sauce</li>
+          <li>1 tbsp soy sauce</li>
+          <li>1 tsp garlic powder</li>
+          <li>Salt & pepper to taste</li>
+          <li>Spring onions & olives to top</li>
+        </ul>
+        <h4>Instructions</h4>
+        <ol>
+          <li>Cook noodles according to packet. Drain and set aside.</li>
+          <li>Brown the mince in a pan over medium-high heat.</li>
+          <li>Add taco seasoning, soy sauce, and gochujang. Stir well.</li>
+          <li>Toss noodles through the mince mixture.</li>
+          <li>Serve topped with spring onions and olives.</li>
+        </ol>
+        <div class="recipe-tip">💡 <strong>Tip:</strong> Works great as a freezer meal — freeze the mince mixture separately and cook fresh noodles when needed.</div>
+      </div>
+    </div>
+
+    <!-- RECIPE 2 — placeholder for next recipe -->
+    <div class="recipe-card">
+      <div class="recipe-card-header" style="background: var(--green);">
+        <h3>More Recipes Coming Soon</h3>
+        <p>Follow us on TikTok for the latest</p>
+      </div>
+      <div class="recipe-meta">
+        <span>🎵 @tfc.living.life</span>
+      </div>
+      <div class="recipe-body">
+        <p style="color: var(--light-brown); line-height: 1.7; margin-top: 0.5rem;">We're adding new recipes regularly — budget meals, freezer wins, and end-of-month magic. Check back soon or follow us on TikTok to never miss a recipe!</p>
+        <br/>
+        <a href="https://www.tiktok.com/@tfc.living.life" target="_blank" class="btn-primary" style="display:inline-block;">Follow on TikTok 🎵</a>
+      </div>
+    </div>
+
+  </div>
+
+  <footer>
+    <img src="logo.jpg" alt="TFC" class="footer-logo"/>
+    <p>Two Fat Chicks Living the Life</p>
+    <p class="footer-sub">Real life • Real food • Phnom Penh, Cambodia</p>
+    <p class="footer-copy">© 2026 TFC Living Life</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

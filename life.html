@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Life — TFC Living Life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link">
+        <img src="logo.jpg" alt="TFC Living Life" class="nav-logo"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="life.html" class="active">Life</a></li>
+        <li><a href="about.html">About Us</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="life.html">Life</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>🌴 Life</h1>
+    <p>Café finds, expat moments, and the honest reality of living in Cambodia.</p>
+  </div>
+
+  <div class="life-grid">
+
+    <article class="life-post">
+      <div class="life-post-meta">
+        <span class="tag" style="background: var(--green);">Café Review</span>
+        <span class="date">January 24, 2026</span>
+      </div>
+      <h2>Gather Grounds Coffee Shop, Phnom Penh</h2>
+      <p>If you live in Phnom Penh long enough, you start judging coffee shops on very specific criteria: Can I sit here for more than 30 minutes? Is the coffee actually good? Will anyone side-eye me for opening my laptop? Gather Grounds quietly ticks all those boxes. It's calm without being boring, and the coffee is solid and dependable — the kind that does its job without demanding attention. A genuinely good spot for tired teachers, remote workers, and anyone who just needs to breathe.</p>
+      <br/>
+      <a href="https://tfclivinglife.blogspot.com/2026/01/gather-grounds-coffee-shop-phnom-penh.html" target="_blank" class="read-more">Read full post →</a>
+    </article>
+
+    <article class="life-post">
+      <div class="life-post-meta">
+        <span class="tag" style="background: var(--orange);">Real Life</span>
+        <span class="date">January 24, 2026</span>
+      </div>
+      <h2>End-of-Month Cooking: Making Real Meals From Whatever's in the House</h2>
+      <p>By the end of the month, the fridge is half empty, the freezer is a mystery box, and the pantry becomes a game of "what on earth can I make with this?" This is the point where takeaway starts whispering sweet lies — and also the point where you check your bank balance and say, absolutely not. This blog is for all those meals. The amazing ones and the beige, practical ones. Real life. Survival cooking. That's kind of the point.</p>
+      <br/>
+      <a href="https://tfclivinglife.blogspot.com/2026/01/end-of-month-cooking-making-real-meals.html" target="_blank" class="read-more">Read full post →</a>
+    </article>
+
+    <article class="life-post">
+      <div class="life-post-meta">
+        <span class="tag" style="background: var(--light-brown);">Welcome</span>
+        <span class="date">December 7, 2025</span>
+      </div>
+      <h2>Welcome to Two Fat Chicks Living the Life</h2>
+      <p>Hello and welcome! We're two chicks living in Phnom Penh, Cambodia, sharing our everyday adventures, café discoveries, and the little moments that make life here feel warm, funny, chaotic, and full of stories. If you love food, soft living, cute places, iced coffee, and real-life vibes — you're in the right place. Grab a drink, get comfy, and come live the life with us. 🐥☕🌴</p>
+      <br/>
+      <a href="https://tfclivinglife.blogspot.com/2025/12/welcome-to-two-fat-chicks-living-life.html" target="_blank" class="read-more">Read full post →</a>
+    </article>
+
+  </div>
+
+  <footer>
+    <img src="logo.jpg" alt="TFC" class="footer-logo"/>
+    <p>Two Fat Chicks Living the Life</p>
+    <p class="footer-sub">Real life • Real food • Phnom Penh, Cambodia</p>
+    <p class="footer-copy">© 2026 TFC Living Life</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>

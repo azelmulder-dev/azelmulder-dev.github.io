@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>About Us — TFC Living Life</title>
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <nav>
+    <div class="nav-inner">
+      <a href="index.html" class="logo-link">
+        <img src="logo.jpg" alt="TFC Living Life" class="nav-logo"/>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="life.html">Life</a></li>
+        <li><a href="about.html" class="active">About Us</a></li>
+      </ul>
+      <button class="hamburger" onclick="toggleMenu()">☰</button>
+    </div>
+    <ul class="mobile-menu" id="mobileMenu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="recipes.html">Recipes</a></li>
+      <li><a href="life.html">Life</a></li>
+      <li><a href="about.html">About Us</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-header">
+    <h1>🐥 About Us</h1>
+    <p>Two chicks, one city, and a whole lot of iced coffee.</p>
+  </div>
+
+  <div class="about-content">
+
+    <div class="about-card">
+      <h2>Who Are We?</h2>
+      <p>We're Azel and Douwlene — two South African women who packed up their lives and landed in Phnom Penh, Cambodia. We're teachers, tutors, business builders, and proud dog moms (hi Harley and Quinn 🐾) with one very opinionated cat named Zeus.</p>
+      <p>TFC Living Life started as a place to be honest about what expat life actually looks like — not the highlight reel, but the real stuff. The end-of-month cooking when the budget is tight. The café that saved a terrible Tuesday. The freezer meal that was surprisingly incredible. The moments that make you laugh at your own life.</p>
+      <p>We live it, we eat it, we write about it. That's the whole deal.</p>
+      <div class="fun-facts">
+        <span class="fun-fact">📍 Phnom Penh, Cambodia</span>
+        <span class="fun-fact">🇿🇦 South African</span>
+        <span class="fun-fact">🐾 Harley & Quinn</span>
+        <span class="fun-fact">🐱 Zeus the Cat</span>
+        <span class="fun-fact">☕ Iced Coffee Addicts</span>
+        <span class="fun-fact">🍳 Real Food Only</span>
+      </div>
+    </div>
+
+    <div class="about-card">
+      <h2>What's This Blog About?</h2>
+      <p>Three things: <strong>real recipes</strong>, <strong>honest café reviews</strong>, and <strong>expat life in Cambodia</strong>.</p>
+      <p>We don't do perfect. We do practical. Budget meals that actually taste good. Coffee shops you can actually work in. End-of-month wins when payday feels far away. And the occasional moment of "how is this our life?" that makes you grateful for all of it.</p>
+      <p>If you're an expat, a tired person who still wants to eat well, or someone who just loves a good café find — welcome home. 🌴</p>
+    </div>
+
+    <div class="about-card">
+      <h2>Find Us Online</h2>
+      <p>We post recipe cards and kitchen moments on TikTok regularly. Come say hi!</p>
+      <br/>
+      <a href="https://www.tiktok.com/@tfc.living.life" target="_blank" class="btn-primary">🎵 @tfc.living.life on TikTok</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <img src="logo.jpg" alt="TFC" class="footer-logo"/>
+    <p>Two Fat Chicks Living the Life</p>
+    <p class="footer-sub">Real life • Real food • Phnom Penh, Cambodia</p>
+    <p class="footer-copy">© 2026 TFC Living Life</p>
+  </footer>
+
+  <script>
+    function toggleMenu() {
+      document.getElementById('mobileMenu').classList.toggle('open');
+    }
+  </script>
+</body>
+</html>
