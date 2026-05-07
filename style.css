@@ -1,15 +1,15 @@
 /* ===== TFC LIVING LIFE — STYLESHEET ===== */
 
 :root {
-  --cream: #FFF5E6;
-  --brown: #2D1B00;
-  --orange: #FF6B35;
-  --yellow: #FFD23F;
-  --green: #06D6A0;
-  --light-brown: #FF8C5A;
+  --cream: #FFFFFF;
+  --brown: #1A1A2E;
+  --orange: #FF4D6D;
+  --yellow: #FFB703;
+  --green: #2DC653;
+  --light-brown: #FF6B35;
   --white: #FFFFFF;
-  --card-bg: #FFFBF5;
-  --shadow: rgba(255, 107, 53, 0.15);
+  --card-bg: #FFF8F9;
+  --shadow: rgba(255, 77, 109, 0.15);
 }
 
 * { margin: 0; padding: 0; box-sizing: border-box; }
